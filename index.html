@@ -343,26 +343,16 @@ and analyzing performance.
 
 
 
-<form 
-  action="https://formspree.io/f/xeeyeovq"
-  method="POST">
-
-
-<input type="text" placeholder="Your Name">
-
-
-<input type="email" placeholder="Your Email">
-
-
-<textarea placeholder="Your Message"></textarea>
-
-
-<button>
-Send Message
-</button>
-
-
+<form action="https://formspree.io/f/xeeyeovq" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required>
+  
+  <input type="email" name="email" placeholder="Your Email" required>
+  
+  <textarea name="message" placeholder="Your Message" required></textarea>
+  
+  <button type="submit">Send Message</button>
 </form>
+
 
 
 </section>
